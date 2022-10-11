@@ -37,3 +37,27 @@
          width: 500px;
     }
 }
+
+
+.items__link-prod {
+    // top: 50%;
+    // bottom: 50%;
+    // left: 10%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    width: 80%;
+    text-align: center;
+    font-size: 90%;
+    background: #43588d;
+    color: #fff;
+    height: 44px;
+    line-height: 44px;
+    font-weight: normal;
+    -webkit-transition: background .5s ease,color .5s ease;
+    -moz-transition: background .5s ease,color .5s ease;
+    -o-transition: background .5s ease,color .5s ease;
+    transition: background .5s ease,color .5s ease;
+    z-index: 5;
+}

@@ -1,12 +1,12 @@
 body {
-    font-family: "Allerta Stencil", sans-serif;
+    font-family: "Futura", sans-serif;
     margin: 0px;
     color: #fff;
     letter-spacing: normal;
 }
 
 a {
-    color: #000;
+    color: #43588d;
 }
 
 .p__promo {
@@ -154,11 +154,13 @@ font-size: 1.4rem;
 
 .wrapper__title {
     font-size: calc(26px + 10 * ((100vw - 320px)/ 960));
-    margin: 0 0 40px;
-    padding-bottom: 10px;
     font-weight: 700;
+    font-size: 26px;
+    margin: 0 0 40px;
     text-transform: capitalize;
-    text-align: left; color:#000;
+    padding-bottom: 10px;
+    text-align: center; 
+    color:#000;
 }
 
 .mr20 {
@@ -307,7 +309,7 @@ button {
     margin: 0;
     font-size: 1.6em !important;
     color: #fff !important;
-    background-color: rgba(0, 0, 0, 0.5);
+
     height: 100%;
     
     width: 100%;
@@ -336,7 +338,7 @@ button {
     margin: 0;
     font-size: 1.6em !important;
     color: #fff !important;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
     height: 96%;
     
     width: 100%;
