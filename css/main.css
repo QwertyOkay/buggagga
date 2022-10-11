@@ -1783,19 +1783,18 @@ button {
 
 .wrapper__buttons-sec {
   margin: 0;
+  text-decoration: none;
   line-height: 1em;
   cursor: pointer;
   position: relative;
   font-family: inherit;
-  text-decoration: none;
+  font-weight: 700;
   overflow: visible;
   padding: 10px 10px;
   font-weight: 700;
-  font-weight: 700;
+  color: #101010;
   text-transform: uppercase;
   left: auto;
-  color: #101010;
-  border: 1px solid #101010;
   background: #fff;
   margin-top: 10px;
   display: block;
