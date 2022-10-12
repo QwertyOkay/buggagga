@@ -13,8 +13,9 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" media="all" href="./css/main.min.css">
   <link rel="stylesheet" href="css/simple-adaptive-slider.css">
-  <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -27,8 +28,6 @@
 <style>
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   }
 
   .itcss__items {
@@ -38,6 +37,12 @@
   .itcss__item {
     counter-increment: slide;
   }
+
+  @font-face {
+    font-family: Futura; 
+    src: url(futura/futur.ttf); /* Путь к файлу со шрифтом */
+   }
+
 </style>
 
 <script defer src="js/simple-adaptive-slider.js"></script>
@@ -138,7 +143,7 @@ justify-content: center;">
       </div>
     </div>
     <a href="1.html" class="wrapper__buttons-sec">
-    <p class="wrapper__items-desc">Pastel Pink Party Bunting</p>
+    <p class="wrapper__items-desc">Pastel Pink Party Bunting <br> €10.99</p>
     </a>
       </a>
     </li>

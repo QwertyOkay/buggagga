@@ -1421,7 +1421,7 @@ u, ins {
 }
 
 body {
-  font-family: "Futura", sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin: 0px;
   color: #fff;
   letter-spacing: normal;
@@ -1784,22 +1784,22 @@ button {
 .wrapper__buttons-sec {
   margin: 0;
   text-decoration: none;
-  line-height: 1em;
   cursor: pointer;
+  line-height: 1em;
   position: relative;
   font-family: inherit;
-  font-weight: 700;
+  color: #444444;
+  font-weight: 400;
   overflow: visible;
-  padding: 10px 10px;
-  font-weight: 700;
-  color: #101010;
-  text-transform: uppercase;
-  left: auto;
   background: #fff;
+  padding: 10px 10px;
   margin-top: 10px;
+  left: auto;
   display: block;
   text-align: center;
   padding: 14px 10px;
+  font-size: 15px;
+  letter-spacing: 0em;
 }
 
 .wrapper__buttons-sec:hover {
