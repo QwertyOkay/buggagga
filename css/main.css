@@ -1544,7 +1544,7 @@ a {
 }
 
 .wrapper__items-desc {
-  line-height: 21px;
+  line-height: 29px;
 }
 
 .wrapper__items-promo {
@@ -1800,11 +1800,6 @@ button {
   padding: 14px 10px;
   font-size: 15px;
   letter-spacing: 0em;
-}
-
-.wrapper__buttons-sec:hover {
-  background-color: #e22c5f;
-  color: #FFF;
 }
 
 .prod__name {
