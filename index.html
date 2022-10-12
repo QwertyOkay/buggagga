@@ -284,6 +284,17 @@ justify-content: center;">
   </main>
 
   <script>
+    let activeAlert = false;
+    const title = "Buggagga.com | Celebrate Decorations";
+    const msg = "Buggagga.com | Happy Birthday Decorations";
+    const changeTitle = setInterval(() => {
+      document.title = activeAlert ? title : msg;
+
+      activeAlert = !activeAlert;
+    }, 1000);
+  </script>
+
+  <script>
     let prevScrollPosition = window.pageYOffset;
 
     window.onscroll = function () {
