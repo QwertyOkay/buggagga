@@ -2109,7 +2109,7 @@ button {
   min-height: 30px;
   min-width: 30px;
   padding: 0;
-  background-color: #e22c5f;
+  background-color: #43588d;
   color: #000;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -2150,17 +2150,17 @@ button {
   justify-content: center;
   align-items: center;
   position: absolute;
+  background-color: #43588d;
   top: 11px;
   right: 11px;
   min-height: 30px;
   min-width: 30px;
-  padding: 0;
-  background-color: #e22c5f;
-  color: #000;
-  border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  cursor: pointer;
+  padding: 0;
+  color: #000;
   transition-property: color;
+  border-radius: 50%;
+  cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -2178,7 +2178,7 @@ button {
   min-height: 30px;
   min-width: 30px;
   padding: 0;
-  background-color: #e22c5f;
+  background-color: #43588d;
   color: #000;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -2201,7 +2201,7 @@ button {
   min-height: 30px;
   min-width: 30px;
   padding: 0;
-  background-color: #e22c5f;
+  background-color: #43588d;
   color: #000;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
