@@ -835,12 +835,12 @@ u, ins {
   display: block;
   background-color: #f6f6f4;
   width: 90%;
-  height: 40px;
   border: 1.5px solid rgb(60, 48, 39);
+  height: 40px;
   padding-left: 42px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__input5:focus {
   border-color: #9927b5;
@@ -851,7 +851,7 @@ u, ins {
 }
 
 .modal__input5:focus + .icon__modal-img {
-  fill: #e22c5f;
+  fill: #43588d;
 }
 
 .modal__input5._error {
@@ -2132,7 +2132,7 @@ button {
   min-height: 30px;
   min-width: 30px;
   padding: 0;
-  background-color: #e22c5f;
+  background-color: #43588d;
   color: #000;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);

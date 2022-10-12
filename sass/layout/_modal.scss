@@ -565,12 +565,12 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
     display: block;
     background-color: #f6f6f4;
     width: 90%;
-    height: 40px;
     border: 1.5px solid rgb(60 48 39);
+    height: 40px;
     padding-left: 42px;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: border;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:focus {
         border-color: $accent-color;
@@ -583,7 +583,7 @@ $overlay-card-color: rgba(33, 150, 243, 0.9);
 
 
 .modal__input5:focus+.icon__modal-img {
-    fill: #e22c5f;
+    fill: #43588d;
 }
 
 .modal__input5._error {
