@@ -1467,6 +1467,7 @@ a {
 
 .header__items {
   margin-right: 40px;
+  font-weight: 600;
 }
 
 .header__items:hover {
@@ -1578,13 +1579,13 @@ a {
 
 .wrapper__title {
   font-size: calc(26px + 10 * (100vw - 320px) / 960);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 26px;
-  margin: 0 0 40px;
+  margin: 0 0 15px;
   text-transform: capitalize;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   text-align: center;
-  color: #000;
+  color: #444;
 }
 
 .mr20 {
@@ -1594,13 +1595,37 @@ a {
 .button__section {
   width: 100%;
   height: 45px;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   background-color: transparent;
   font-size: initial;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-shadow: none;
+  width: 80%;
+  text-align: center;
+  font-size: 90%;
+  background: #43588d;
+  color: #fff;
+  height: 44px;
+  line-height: 44px;
+  font-weight: normal;
+  -webkit-transition: background 0.5s ease, color 0.5s ease;
+  -moz-transition: background 0.5s ease, color 0.5s ease;
+  -o-transition: background 0.5s ease, color 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease;
+  z-index: 5;
 }
 @media screen and (min-width: 1200px) {
   .button__section {
-    font-size: x-large;
+    font-size: 15px;
   }
 }
 
@@ -1817,6 +1842,31 @@ button {
 
 .header__color {
   background-color: rgba(243, 243, 245, 0.2588235294);
+}
+
+.section__form {
+  margin-left: 0px;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .section__form {
+    margin-left: 0px;
+  }
+}
+
+.input__email {
+  font-size: 18px;
+  display: block;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #000;
+  border-radius: 0;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .icon__raiting {
@@ -2162,6 +2212,42 @@ button {
 }
 .button__modal3:focus, .button__modal3:hover {
   color: brown;
+}
+
+.section__buttons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-direction: inherit;
+}
+
+.section__buttonss {
+  border: 2px solid #fff;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: initial;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  display: inline-block;
+  letter-spacing: 1px;
+  text-shadow: none;
+  text-align: center;
+  background: #43588d;
+  color: #fff;
+  line-height: 44px;
+  font-weight: normal;
+  -webkit-transition: background 0.5s ease, color 0.5s ease;
+  -moz-transition: background 0.5s ease, color 0.5s ease;
+  -o-transition: background 0.5s ease, color 0.5s ease;
+  transition: background 0.5s ease, color 0.5s ease;
+  z-index: 5;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
 }
 
 .items__form {
