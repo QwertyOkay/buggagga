@@ -1828,16 +1828,24 @@ button {
 }
 
 .prod__name {
-  color: #000;
-  font-size: 2.75em;
+  color: #444444;
+  font-size: 2.35em;
+  font-weight: 400;
 }
 
 .prod__price {
-  color: #000;
-  font-size: 2.7em;
-  margin: 25px 0px;
-  color: #101010;
+  font-size: 2.3em;
+  margin: 20px 0px;
+  color: #43588d;
   font-weight: 400;
+}
+
+.wrap__prod {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 65px;
 }
 
 .header__color {
@@ -2262,18 +2270,18 @@ button {
 }
 
 .items__input {
-  border: 1px solid #cecece;
+  border: 1px solid #43588d;
   display: block;
   outline: 0;
   margin-bottom: 30px;
   transition: 0.3s ease-in-out;
   padding: 10px 20px;
-  color: #000;
+  color: #444;
 }
 
 .items__button {
   padding: 15px 20px;
-  background-color: #e22c5f;
+  background-color: #ec71c5;
   color: #fff;
   font-weight: 600;
   transition: 0.3s ease-in-out;
@@ -2282,6 +2290,10 @@ button {
   font-size: initial;
   transition: 0.3s ease-in-out;
   border: none;
+}
+
+.items__button:hover {
+  background-color: #43588d;
 }
 
 .items__info {

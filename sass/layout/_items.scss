@@ -9,18 +9,18 @@
 }
 
 .items__input {
-    border: 1px solid #cecece;
+    border: 1px solid #43588d;
     display: block;
     outline: 0;
     margin-bottom: 30px;
     transition: .3s ease-in-out;
     padding: 10px 20px;
-    color: #000;
+    color: #444;
 }
 
 .items__button {
     padding: 15px 20px;
-    background-color: #e22c5f;
+    background-color: #ec71c5;
     color: #fff;
     font-weight: 600;
     transition: .3s ease-in-out;
@@ -29,6 +29,10 @@
     font-size: initial;
     transition: .3s ease-in-out;
     border: none;
+}
+
+.items__button:hover {
+    background-color:#43588d;
 }
 
 .items__info {
